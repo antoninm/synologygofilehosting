@@ -1,0 +1,10 @@
+{
+"name": "GoFileIo",
+"hostprefix": "gofile.io",
+"displayname": "GoFile.io",
+"version": "1.0.3",
+"authentication": "yes",
+"module": "GoFileIo.php",
+"class": "GoFileIoHosting",
+"description": "Leave username/password empty for public files (guest token). Or enter your gofile.io API key as password."
+}
