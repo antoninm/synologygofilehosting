@@ -15,21 +15,13 @@ Permet à la Download Station de télécharger des liens **gofile.io** (`https:/
 
 ## Utilisation
 
-Coller un lien gofile.io dans la zone d'ajout de téléchargement :
-
-```
-https://gofile.io/d/K5YYlf
-```
-
-**Sans configuration** : fonctionne pour tous les fichiers publics (token invité automatique).
-
-### Lien de test
+Coller un lien gofile.io dans la zone d'ajout de téléchargement : (lien de test)
 
 ```
 https://gofile.io/d/QcG4Vj
 ```
 
-Petit fichier texte (`test_plugin_gofileio.txt`, quelques octets) — permet de vérifier rapidement que le plugin est opérationnel sans lancer un gros téléchargement.
+**Sans configuration** : fonctionne pour tous les fichiers publics (token invité automatique).
 
 ---
 
@@ -62,7 +54,7 @@ Dans DSM › Download Station › **Paramètres › Hébergement de fichiers** :
 
 ### Résolution du lien
 
-Quand vous ajoutez `https://gofile.io/d/K5YYlf`, le plugin :
+Quand vous ajoutez `https://gofile.io/d/{id}`, le plugin :
 
 1. Obtient un token (invité ou votre clé API)
 2. Appelle `api.gofile.io/contents/{id}` pour récupérer la liste des fichiers du dossier
